@@ -1,0 +1,157 @@
+/* Home.js */
+button.login{
+  border-radius: 5px;
+  border: 1.4px solid rgb(26, 118, 26);
+  color: rgb(26, 118, 26);
+  /* margin: 15px; */
+  margin-top: 15px;
+  margin-right: 5px;
+  background-color: rgb(196, 247, 196);
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1.login{
+  text-align: center;
+}
+
+input.login{
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 20px;
+  width: 250px;
+  padding-left: 10px;
+}
+
+a.login{
+  color: rgb(26, 118, 26);
+}
+
+a.login:visited{
+  color: rgb(26, 118, 26);
+}
+
+/* Signup.js */
+button.category{
+  border-radius: 5px;
+  border: 1.4px solid rgb(18, 99, 18);
+  color: rgb(18, 99, 18);
+  background-color: rgb(196, 247, 196);
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 170px;
+}
+
+a.category{
+  color: rgb(18, 99, 18);
+}
+
+a.category:visited{
+  color: rgb(18, 99, 18);
+}
+
+#img1{
+  display: block;
+  margin: auto;
+  height: 250px;
+  width: auto;
+}
+
+button.donation{
+  border-radius: 5px;
+  border: 1.4px solid rgb(18, 99, 18);
+  color: rgb(18, 99, 18);
+  background-color: rgb(196, 247, 196);
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 170px;
+}
+
+a.donation{
+  color: rgb(18, 99, 18);
+}
+
+a.donation:visited{
+  color: rgb(18, 99, 18);
+}
+
+/* makedonation.js */
+h1.donation{
+  text-align: center;
+}
+
+p.donation{
+  text-align: center;
+}
+
+input.donation{
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 20px;
+  width: 250px;
+  padding-left: 10px;
+}
+
+div.donation{
+  display: flex;
+  justify-content: center;
+}
+
+button.donate{
+  border-radius: 5px;
+  border: 1.4px solid rgb(18, 99, 18);
+  color: rgb(18, 99, 18);
+  background-color: rgb(196, 247, 196);
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 170px;
+  cursor: pointer;
+}
+
+a.donate{
+  color: rgb(18, 99, 18);
+}
+
+a.donate:visited{
+  color: rgb(18, 99, 18);
+}
+
+/* NGO available donation */
+div.ngoavailfood{
+  background-color: rgba(36, 250, 36, 0.25);
+  overflow-wrap: break-word;
+  height: 180px;
+  width: 320px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+}
+
+button#foodreq{
+  border-radius: 5px;
+  border: 1.4px solid rgb(5, 83, 5);
+  color: rgb(5, 83, 5);
+  background-color: rgb(114, 247, 114);
+}
+
+/* NGO profile */
+div.ngoprofile{
+  background-color: rgba(36, 250, 36, 0.25);
+  text-align: left;
+  overflow-wrap: break-word;
+  height: 110px;
+  width: 320px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
