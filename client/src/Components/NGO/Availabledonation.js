@@ -11,7 +11,7 @@ const Availabledonation = () => {
     useEffect(() => {
         const fetchDonations = async () => {
             try {
-                const response = await fetch('/api/availabledonation');
+                const response = await fetch('http://127.0.0.1:8000/api/availabledonation');
                 const data = await response.json();
                 if (Array.isArray(data)) {
                     setDonations(data);
@@ -38,7 +38,7 @@ const Availabledonation = () => {
                             <label htmlFor="address">Address : {donation.address}</label><br />
                             <label htmlFor="phonenumber">Phone Number : {donation.phoneNumber}</label><br />
                             <label htmlFor="food type">Food Type : {donation.foodType}</label><br />
-                            <button id='foodreq'>Accept</button>
+                            <button id='foodreq'>Request</button>
                         </div>
                     </div>
                 ))}

@@ -10,14 +10,6 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 app.use(bodyParser.json()); 
 app.use(cors());
 
-// app.use(
-//     '/api',
-//     createProxyMiddleware({
-//         target: 'http://localhost:3000',
-//         changeOrigin: true,
-//     })
-// );
-
 app.use(router);
 
 let port = 8000;

@@ -11,7 +11,7 @@ const Makedonation = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await fetch('/api/donate', {
+            await fetch('http://127.0.0.1:8000/api/donate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -9,7 +9,7 @@ const Signin = () => {
     return (
         <>
             <Navbar />
-            <h1>NGO Sign In</h1>
+            <center><h1>NGO Sign In</h1></center>
             <form action="">
                 <input className='login' type="text" placeholder="Enter NGO's Name" /><br />
                 <input className='login' type="number" placeholder="Enter NGO's Phone Number" /><br />
